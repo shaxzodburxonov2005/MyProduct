@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/firstFragmen">
+
+    <fragment
+        android:id="@+id/firstFragmen"
+        android:name="com.example.myproduct1.FirstFragmen"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" />
+    <fragment
+        android:id="@+id/twoFragment"
+        android:name="com.example.myproduct1.TwoFragment"
+        android:label="fragment_two"
+        tools:layout="@layout/fragment_two" />
+</navigation>
