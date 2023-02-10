@@ -9,10 +9,30 @@
         android:id="@+id/firstFragmen"
         android:name="com.example.myproduct1.FirstFragmen"
         android:label="fragment_first"
-        tools:layout="@layout/fragment_first" />
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_firstFragmen_to_twoFragment"
+            app:destination="@id/twoFragment" />
+        <action
+            android:id="@+id/action_firstFragmen_to_allFragment"
+            app:destination="@id/allFragment" />
+        <action
+            android:id="@+id/action_firstFragmen_to_typeFragment"
+            app:destination="@id/typeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/twoFragment"
         android:name="com.example.myproduct1.TwoFragment"
         android:label="fragment_two"
         tools:layout="@layout/fragment_two" />
+    <fragment
+        android:id="@+id/allFragment"
+        android:name="com.example.myproduct1.AllFragment"
+        android:label="fragment_all"
+        tools:layout="@layout/fragment_all" />
+    <fragment
+        android:id="@+id/typeFragment"
+        android:name="com.example.myproduct1.TypeFragment"
+        android:label="fragment_type"
+        tools:layout="@layout/fragment_type" />
 </navigation>
