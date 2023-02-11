@@ -2,7 +2,6 @@ package com.example.myproduct1.`interface`
 
 import androidx.room.*
 import com.example.myproduct1.Product.Product
-import com.example.myproduct1.Product.Tayp
 
 @Dao
 interface ProductDao {

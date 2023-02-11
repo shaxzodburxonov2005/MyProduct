@@ -5,7 +5,7 @@ import androidx.room.PrimaryKey
 
 
 @Entity
-class Product(
+data class Product(
     var name: String,
     var price: Int,
     var tayp: String,
