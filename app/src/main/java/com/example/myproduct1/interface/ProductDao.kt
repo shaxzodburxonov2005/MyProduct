@@ -2,6 +2,7 @@ package com.example.myproduct1.`interface`
 
 import androidx.room.*
 import com.example.myproduct1.Product.Product
+import com.example.myproduct1.Product.Tayp
 
 @Dao
 interface ProductDao {
@@ -9,13 +10,13 @@ interface ProductDao {
     fun getAllNews(type: String): List<Product>
 
     @Insert
-    fun addNews(product: Product)
+    fun addNews(produkt: Product)
 
     @Delete
-    fun deleteNews(product: Product)
+    fun deleteNews(produkt: Product)
 
     @Update
-    fun update(product: Product)
+    fun update(produkt: Product)
 
     @Query("select * from news where id=:id")
     fun getNewsById(id: Int): Product

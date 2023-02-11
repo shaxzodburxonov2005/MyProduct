@@ -29,10 +29,19 @@
         android:id="@+id/allFragment"
         android:name="com.example.myproduct1.AllFragment"
         android:label="fragment_all"
-        tools:layout="@layout/fragment_all" />
+        tools:layout="@layout/fragment_all" >
+        <action
+            android:id="@+id/action_allFragment_to_data"
+            app:destination="@id/data" />
+    </fragment>
     <fragment
         android:id="@+id/typeFragment"
         android:name="com.example.myproduct1.TypeFragment"
         android:label="fragment_type"
         tools:layout="@layout/fragment_type" />
+    <fragment
+        android:id="@+id/data"
+        android:name="com.example.myproduct1.Data"
+        android:label="fragment_data"
+        tools:layout="@layout/fragment_data" />
 </navigation>

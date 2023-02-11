@@ -10,16 +10,19 @@
     <Button
         android:text="All"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/all"/>
 
     <Button
         android:text="ADD"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/add"/>
 
     <Button
         android:text="Type"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:id="@+id/type"/>
 
 </LinearLayout>
